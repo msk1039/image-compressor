@@ -31,9 +31,9 @@ sudo apt-get install cmake git libjpeg-dev
 ```
 
 #### Windows
-Install CMake
-Install Git
-Install libjpeg using vcpkg
+- Install CMake
+- Install Git
+- Install libjpeg using vcpkg
 
 ```sh
 git clone https://github.com/microsoft/vcpkg.git
@@ -85,9 +85,9 @@ cmake --build .
 ./image-compression <input-image> <output-image> <compression-level>
 ```
 
-<input-image>: Path to the input image file
-<output-image>: Path to the output compressed image file
-<compression-level>: Compression level (0-100, where 100 is the highest quality)
+- ```<input-image>``` : Path to the input image file
+- ```<output-image>``` : Path to the output compressed image file
+- ```<compression-level>``` : Compression level (0-100, where 100 is the highest quality)
 
 #### Example:
 
